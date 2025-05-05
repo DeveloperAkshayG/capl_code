@@ -1,0 +1,12 @@
+/*@!Encoding:1252*/
+//simple program to begin with variable and hello world in capl
+variables
+{
+  int a=10;
+}
+on start
+{
+  write("The value of variable is %d",a);
+  write("######################Let's get started with CAPL###############################");
+}
+

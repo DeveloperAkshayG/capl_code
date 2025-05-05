@@ -1,0 +1,14 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+ int a=10; 
+}
+on start
+{
+  write("################let's get started#################");
+}

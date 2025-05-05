@@ -1,0 +1,14 @@
+/*@!Encoding:1252*/
+variables
+{
+  int a= 10;
+  int b= 20;
+  int sum=0;
+}
+
+on start
+{
+  sum=a+b;
+  write("The sum is %d",sum);
+}
+

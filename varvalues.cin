@@ -1,0 +1,12 @@
+/*@!Encoding:1252*/
+//capl script for disolaying variables value
+variables
+{
+  int a=10;
+  int b=10;
+}
+on start
+{
+  write("The value of variable a is %d",a);
+  write("The value of variable a is %d",b);
+}
