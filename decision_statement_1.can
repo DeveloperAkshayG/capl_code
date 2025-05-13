@@ -1,0 +1,15 @@
+variables
+{
+ int a= 5;
+}
+on start
+{
+ if (a == 5)
+ {
+	write("The value of a is expected %d",a);
+ }
+ else
+ {
+	write("The value of a is not expected %d",a);
+ }
+}
