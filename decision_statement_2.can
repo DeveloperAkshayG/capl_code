@@ -1,0 +1,16 @@
+variables
+{
+	int a = 5;
+	int b = 10;
+}
+on start
+{
+	if (a > b)
+	{
+		write("The greater number is %d",a);
+	}
+	else
+	{
+		write("The greater number is %d",b);
+	}
+}
